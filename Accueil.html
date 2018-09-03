@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>La Florentina</title>
+
+    <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+    </style>
 </head>
 
 <body>
@@ -33,6 +43,22 @@
             <h1>Je suis un grand voyageur</h1>
             <p>Bla bla bla (texte de l'article)</p>
         </section>
+
+        <section>
+            <table style="width:100%">
+                <tr>
+                    <th colspan="2">A</th>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <th rowspan="2" valign="bottom">D</th>
+                </tr>
+                <tr>
+                    <th>C</th>
+                </tr>
+            </table>
+        </section>
+
     </main>
 
     <footer>
