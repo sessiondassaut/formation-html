@@ -1,0 +1,17 @@
+table
+{
+    /* Les bordures du tableau seront collées (plus joli) */
+    width: 40em;
+    border-width:1px;
+    border-style:double;
+    border-color:black;
+
+}
+td
+{
+    border: 1px solid black;
+}
+th
+{
+    border: 1px solid black;
+}
